@@ -1,11 +1,5 @@
 [
     {
-      "name": "! Create Custom App",
-      "image": "/media/icons/custom.webp",
-      "categories": ["all"],
-      "custom": "true"
-    },
-    {
       "name": "! [NEW] Request An App",
       "link": "https://forms.gle/vwdHN3iPz5cLaHaMA",
       "image": "/media/icons/request.webp",
