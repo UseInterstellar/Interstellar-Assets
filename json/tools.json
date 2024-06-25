@@ -1,11 +1,5 @@
 [
     {
-      "name": "! Create Custom App",
-      "image": "/media/icons/custom.webp",
-      "categories": ["all"],
-      "custom": "true"
-    },
-    {
       "name": "GPTZero.me",
       "link": "https://gptzero.me/",
       "image": "/media/icons/gz.webp",
