@@ -1930,5 +1930,17 @@
       "name": "ShipCraft.io",
       "link": "https://shipcraft.io/",
       "categories": ["all"]
-    }
+    },
+       {
+    "name": "BFDIA 5b",
+    "link": "https://coppersalts.github.io/HTML5b/",
+    "image": "https://m.gjcdn.net/game-screenshot/400/5205389-r43zkmrs-v4.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "South Park",
+    "link": "https://retrobowl-game.github.io/South-Park/",
+    "image": "https://i.ebayimg.com/images/g/u0AAAOSwFpxiyEt3/s-l960.webp",
+    "categories": ["all", "emu"]
+  }
   ]
