@@ -14,7 +14,7 @@
     {
       "name": "Steam",
       "link": "https://store.steampowered.com/",
-      "image": "/media/icons/steam.webp",
+      "image": "/media/icons/stm.webp",
       "categories": ["all"],
       "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now.",
       "partial": true
