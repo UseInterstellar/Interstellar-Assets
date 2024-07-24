@@ -1942,5 +1942,23 @@
     "link": "https://retrobowl-game.github.io/South-Park/",
     "image": "/media/icons/southpark.jpg",
     "categories": ["all", "emu"]
+  },
+   {
+    "name": "Flappy 2048",
+    "link": "https://hczhcz.github.io/Flappy-2048/",
+    "image": "/media/icons/flappy-2048.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Flappy Bird",
+    "link": "https://playcanv.as/p/2OlkUaxF/",
+    "image": "/media/icons/flappybird.jpg",
+    "categories": ["all"]
+  },
+  {
+    "name": "Mario Party",
+    "link": "https://ocu.pages.dev/semag-code/marioparty/",
+    "image": "/media/icons/marioparty.jpg",
+    "categories": ["all", "emu"]
   }
   ]
