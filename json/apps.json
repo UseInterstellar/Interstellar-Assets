@@ -40,7 +40,7 @@
     {
       "name": "Temu",
       "link": "https://www.temu.com/",
-      "image": "/media/icons/temu.webp",
+      "image": "/media/icons/temu-v2.webp",
       "categories": ["all"]
     },
     {
@@ -158,7 +158,7 @@
     {
       "name": "NBA",
       "link": "https://nba.com",
-      "image": "assets/media/icons/nba.webp",
+      "image": "assets/media/icons/nba-v2.webp",
       "categories": ["all"]
     },
     {
