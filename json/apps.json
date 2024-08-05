@@ -1,6 +1,6 @@
 [
     {
-      "name": "! [NEW] Request An App",
+      "name": "! App Request",
       "link": "https://forms.gle/vwdHN3iPz5cLaHaMA",
       "image": "/media/icons/request.webp",
       "categories": ["all"]
@@ -199,9 +199,9 @@
     },
     {
       "name": "Spotify",
+      "link": "https://open.spotify.com",
       "image": "/media/icons/spotify.webp",
-      "categories": ["all"],
-      "error": true
+      "categories": ["all"]
     },
     {
       "name": "Telegram",
@@ -290,7 +290,7 @@
       "partial": "true"
     },
     {
-      "name": "YouTube Alternative (Invidious)",
+      "name": "YouTube (Invidious)",
       "link": "https://vid.puffyan.us/",
       "image": "/media/icons/youtube.webp",
       "categories": ["all", "social", "stream"]
@@ -331,7 +331,7 @@
       "categories": ["all", "emu", "android"]
     },
     {
-      "name": "Now.GG (NowGG.me) [Working]",
+      "name": "NowGG.Me",
       "link": "https://nowgg.me",
       "image": "/media/icons/shuttle.webp",
       "categories": ["all", "emu", "android"]
@@ -356,7 +356,7 @@
       "categories": ["all", "ai"]
     },
     {
-      "name": "Google Mail (Gmail)",
+      "name": "Google Mail",
       "link": "https://mail.google.com/",
       "image": "/media/icons/gmail.webp",
       "categories": ["all", "mail"],
@@ -421,13 +421,6 @@
     {
       "name": "Movie Web",
       "link": "https://movie-web-me.vercel.app/",
-      "image": "/media/icons/MW.png",
-      "say": "This is not an official domain for Movie Web",
-      "categories": ["all", "media"]
-    },
-    {
-      "name": "Sudo-Flix.Lol (Movie Web Clone)",
-      "link": "https://sudo-flix.lol/",
       "image": "/media/icons/MW.png",
       "say": "This is not an official domain for Movie Web",
       "categories": ["all", "media"]
