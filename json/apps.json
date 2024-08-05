@@ -216,7 +216,7 @@
       "categories": ["all", "social"]
     },
     {
-      "name": "Free Media Heck Yeah",
+      "name": "FMHY",
       "link": "https://fmhy.pages.dev",
       "image": "/media/icons/fmhy.webp",
       "categories": ["all", "media"]
@@ -285,9 +285,7 @@
       "name": "YouTube",
       "link": "https://youtube.com",
       "image": "/media/icons/youtube.webp",
-      "categories": ["all", "social", "stream"],
-      "dy": "true",
-      "partial": "true"
+      "categories": ["all", "social", "stream"]
     },
     {
       "name": "YouTube (Invidious)",
@@ -368,7 +366,6 @@
       "link": "https://outlook.live.com/",
       "image": "/media/icons/outlook.webp",
       "categories": ["all", "mail"],
-      "dy": "true",
       "partial": "true"
     },
     {
