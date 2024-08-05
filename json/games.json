@@ -667,9 +667,9 @@
     },
     {
       "name": "Subway Surfers: San Francisco ",
-      "link": "https://raw.githack.com/3kh0/3kh0-assets/main/subway-surfers/index.html",
+      "link": "/e/2/subway-surfers/index.html",
       "image": "/media/icons/SF.webp",
-      "categories": ["all,", "emu"]
+      "categories": ["all,", "emu", "local"]
     },
     {
       "name": "Super Mario Bros",
@@ -685,7 +685,7 @@
     },
     {
       "name": "Web Retro",
-      "link": "/e/index.html",
+      "link": "/e/3/index.html",
       "image": "/media/icons/webretro.webp",
       "categories": ["all,", "emu", "local"]
     },
