@@ -8,7 +8,7 @@
     {
       "name": "Fancade",
       "link": "https://play.fancade.com",
-      "image": "/media/icon/fancade.jpg",
+      "image": "/media/icons/fancade.jpg",
       "categories": ["all"]
     },
     {
@@ -39,7 +39,7 @@
     {
       "name": "Steam",
       "link": "https://steampowered.com/",
-      "image": "/media/icons/steam.webp",
+      "image": "/media/icons/stm.webp",
       "categories": ["all"],
       "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam website, you can't actually play any games unless you use Geforce Now.",
       "partial": true
@@ -361,7 +361,7 @@
     {
       "name": "Tetr.io",
       "link": "https://tetr.io/",
-      "image": "/media/icons/tetrio.webp",
+      "image": "/media/icons/tetrio.jpg",
       "categories": ["all", "2P"]
     },
     {
@@ -1929,6 +1929,7 @@
     {
       "name": "ShipCraft.io",
       "link": "https://shipcraft.io/",
+      "image": "/media/icons/default-g.jpg",
       "categories": ["all"]
     },
     {
