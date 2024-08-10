@@ -1958,8 +1958,44 @@
   },
   {
     "name": "Mario Party",
-    "link": "https://ocu.pages.dev/semag-code/marioparty/",
+    "link": "https://classwork-heaven.pages.dev/marioparty/",
     "image": "/media/icons/marioparty.jpg",
     "categories": ["all", "emu"]
+  },
+  {
+    "name": "10 Minutes Till Dawn",
+    "link": "https://selenite.cc/semag/10minutestilldawn/index.html",
+    "image": "/media/icons/10minutestilldawn.png",
+    "categories": ["all"]
+  },
+  {
+    "name": "13 Days In Hell",
+    "link": "https://selenite.cc/semag/13/index.html",
+    "image": "/media/icons/13.webp",
+    "categories": ["all"]
+  },
+  {
+    "name": "Super Mario 64 DS",
+    "link": "https://selenite.cc/semag/supermario64ds/index.html",
+    "image": "/media/icons/supermario64ds.png",
+    "categories": ["all", "emu"]
+  },
+  {
+    "name": "Nintendogs",
+    "link": "https://selenite.cc/semag/nintendogs/index.html",
+    "image": "/media/icons/nintendogs.jpg",
+    "categories": ["all", "emu"]
+  },
+  {
+    "name": "Worlds Hardest Game",
+    "link": "https://selenite.cc/semag/worldshardestgame/index.html",
+    "image": "/media/icons/whg.png",
+    "categories": ["all"]
+  },
+  {
+    "name": "Worlds Hardest Game 2",
+    "link": "https://selenite.cc/semag/worldshardestgame2/index.html",
+    "image": "/media/icons/the-worlds-hardest-game-2.jpg",
+    "categories": ["all"]
   }
   ]
