@@ -80,7 +80,7 @@
         { "name": "Discord Canary", "url": "https://canary.discord.com" },
         { "name": "Discord PTB", "url": "https://ptb.discord.com" }
       ],
-      "image": "/media/icons/dc.jpg",
+      "image": "/media/icons/discord.jpg",
       "categories": ["all", "social"]
     },
     {
@@ -312,7 +312,7 @@
         { "name": "Discord Canary", "url": "https://canary.discord.com/login" },
         { "name": "Discord PTB", "url": "https://ptb.discord.com/login" }
       ],
-      "image": "/media/icons/dc.jpg",
+      "image": "/media/icons/discord.jpg",
       "categories": ["all", "social"],
       "blank": "true"
     },
