@@ -2,19 +2,19 @@
     {
       "name": "GPTZero.me",
       "link": "https://gptzero.me/",
-      "image": "/media/icons/gz.webp",
+      "image": "/icons/gz.webp",
       "categories": ["all", "ad"]
     },
     {
       "name": "ZeroGPT.com",
       "link": "https://www.zerogpt.com/",
-      "image": "/media/icons/zg.webp",
+      "image": "/icons/zg.webp",
       "categories": ["all", "ad"]
     },
     {
       "name": "ChatGPT",
       "link": "https://chat.openai.com",
-      "image": "/media/icons/gpt.jpg",
+      "image": "/icons/gpt.jpg",
       "categories": ["all", "ai"],
       "error": "true",
       "say": "You must have a ChatGPT account to use the site, also the site may have some issues if you don't minimize tabs while using it."
@@ -22,73 +22,73 @@
     {
       "name": "CopyLeaks.com",
       "link": "https://copyleaks.com/ai-content-detector",
-      "image": "/media/icons/cl.jpg",
+      "image": "/icons/cl.jpg",
       "categories": ["all", "ad"]
     },
     {
       "name": "Writer.com",
       "link": "https://writer.com/ai-content-detector/",
-      "image": "/media/icons/wr.png",
+      "image": "/icons/wr.png",
       "categories": ["all", "ad"]
     },
     {
       "name": "Quillbot.com AI Detector",
       "link": "https://quillbot.com/ai-content-detector",
-      "image": "/media/icons/qb.jpg",
+      "image": "/icons/qb.jpg",
       "categories": ["all", "ad"]
     },
     {
       "name": "Kome.ai YouTube Transcript",
       "link": "https://kome.ai/tools/youtube-transcript-generator",
-      "image": "/media/icons/km.webp",
+      "image": "/icons/km.webp",
       "categories": ["all", "ts"]
     },
     {
       "name": "NoteGPT.io YouTube Transcript",
       "link": "https://notegpt.io/youtube-transcript-generator",
-      "image": "/media/icons/ng.jpg",
+      "image": "/icons/ng.jpg",
       "categories": ["all", "ts"]
     },
     {
       "name": "Grammarly Plagiarism Checker",
       "link": "https://www.grammarly.com/plagiarism-checker",
-      "image": "/media/icons/gm.png",
+      "image": "/icons/gm.png",
       "categories": ["all", "pc"]
     },
     {
       "name": "Plagiarism Detector",
       "link": "https://plagiarismdetector.net/",
-      "image": "/media/icons/pdn.png",
+      "image": "/icons/pdn.png",
       "categories": ["all", "pc"]
     },
     {
       "name": "Blooket Cheats",
       "link": "https://github.com/Blooket-Council/Blooket-Cheats",
-      "image": "/media/icons/bl.webp",
+      "image": "/icons/bl.webp",
       "categories": ["all", "bl", "cs"]
     },
     {
       "name": "Edpuzzle Cheats",
       "link": "https://github.com/ading2210/edpuzzle-answers",
-      "image": "/media/icons/ep.png",
+      "image": "/icons/ep.png",
       "categories": ["all", "ep", "cs"]
     },
     {
       "name": "DeepAI.org",
       "link": "https://deepai.org/",
-      "image": "/media/icons/da.webp",
+      "image": "/icons/da.webp",
       "categories": ["all", "ai"]
     },
     {
       "name": "FreedomGPT",
       "link": "https://chat.freedomgpt.com/",
-      "image": "/media/icons/default-t.jpg",
+      "image": "/icons/default-t.jpg",
       "categories": ["all", "ai"]
     },
     {
       "name": "TalkAI.info",
       "link": "https://talkai.info/chat/",
-      "image": "/media/icons/ta.webp",
+      "image": "/icons/ta.webp",
       "categories": ["all", "ai"]
     }
   ]
