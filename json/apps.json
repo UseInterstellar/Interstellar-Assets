@@ -216,9 +216,9 @@
       "categories": ["all", "social"]
     },
     {
-      "name": "FMHY",
+      "name": "FreeMediaHeckYeah",
       "link": "https://fmhy.pages.dev",
-      "image": "/icons/fmhy.webp",
+      "image": "/icons/app.jpg",
       "categories": ["all", "media"]
     },
     {
@@ -413,6 +413,7 @@
     {
       "name": "EMovies.si",
       "link": "https://emovies.si",
+      "image": "/icons/app.jpg",
       "categories": ["all", "media"]
     },
     {
