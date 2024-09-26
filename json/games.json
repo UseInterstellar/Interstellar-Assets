@@ -1958,7 +1958,7 @@
   },
   {
     "name": "Mario Party",
-    "link": "https://classwork-heaven.pages.dev/marioparty/",
+    "link": "https://classwork-heaven.pages.dev/g/marioparty/",
     "image": "/icons/marioparty.jpg",
     "categories": ["all", "emu"]
   },
@@ -1996,6 +1996,18 @@
     "name": "Worlds Hardest Game 2",
     "link": "https://selenite.cc/semag/worldshardestgame2/index.html",
     "image": "/icons/the-worlds-hardest-game-2.jpg",
+    "categories": ["all"]
+  },
+  {
+    "name": "Worlds Hardest Game 2",
+    "link": "https://selenite.cc/semag/worldshardestgame2/index.html",
+    "image": "/icons/the-worlds-hardest-game-2.jpg",
+    "categories": ["all"]
+  },
+  {
+    "name": "NZ:P",
+    "link": "https://nzp.gay",
+    "image": "/icons/nzp.png",
     "categories": ["all"]
   }
   ]
