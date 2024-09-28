@@ -428,5 +428,35 @@
       "link": "https://gba.js.org/",
       "image": "/icons/gba.png",
       "categories": ["all", "emu"]
+    },
+    {
+      "name": "Brave",
+      "link": "https://search.brave.com",
+      "image": "/icons/brave.png",
+      "categories": ["all"]
+    },
+    {
+      "name": "Replit",
+      "link": "https://replit.com",
+      "image": "/icons/replit.svg.png",
+      "categories": ["all"]
+    },
+    {
+      "name": "CodeSandbox",
+      "link": "https://codesandbox.io/",
+      "image": "/icons/csb.png",
+      "categories": ["all"]
+    },
+    {
+      "name": "Aniwatch",
+      "link": "https://aniwatchtv.to/",
+      "image": "/icons/aniwatch.jpg",
+      "categories": ["all"]
+    },
+    {
+      "name": "Youtube Music",
+      "link": "https://music.youtube.com/",
+      "image": "/icons/youtubemusic.jpg",
+      "categories": ["all"]
     }
   ]
