@@ -1536,6 +1536,12 @@
       "categories": ["all"]
     },
     {
+      "name": "GBA Games 3",
+      "link": "https://gba.js.org/",
+      "image": "/icons/gba.png",
+      "categories": ["all", "emu"]
+    },
+    {
       "name": "Retro Bowl",
       "link": "/e/2/retro/index.html",
       "image": "/icons/retro.webp",
@@ -2008,6 +2014,18 @@
     "name": "NZ:P",
     "link": "https://nzp.gay",
     "image": "/icons/nzp.png",
+    "categories": ["all"]
+  },
+  {
+    "name": "Y8 Games",
+    "link": "https://y8.com/",
+    "image": "/icons/y8.webp",
+    "categories": ["all", "game"]
+  },
+  {
+    "name": "Gidd.io Games",
+    "link": "https://gidd.io",
+    "image": "/icons/gidd.webp",
     "categories": ["all"]
   }
   ]

@@ -246,12 +246,6 @@
     "categories": ["all"]
   },
   {
-    "name": "Gidd.io Games",
-    "link": "https://gidd.io",
-    "image": "/icons/gidd.webp",
-    "categories": ["all"]
-  },
-  {
     "name": "Tumblr",
     "link": "https://tumblr.com/",
     "image": "/icons/tumblr.webp",
@@ -274,12 +268,6 @@
     "link": "https://vscode.dev",
     "image": "/icons/vscode.webp",
     "categories": ["all", "tool"]
-  },
-  {
-    "name": "Y8 Games",
-    "link": "https://y8.com/",
-    "image": "/icons/y8.webp",
-    "categories": ["all", "game"]
   },
   {
     "name": "YouTube",
@@ -381,12 +369,6 @@
     "categories": ["all"]
   },
   {
-    "name": "Newgrounds",
-    "link": "https://www.newgrounds.com",
-    "image": "/icons/newgrounds.webp",
-    "categories": ["all", "social", "game"]
-  },
-  {
     "name": "Instagram",
     "image": "/icons/insta.webp",
     "categories": ["all", "social", "message"],
@@ -422,12 +404,6 @@
     "image": "/icons/MW.png",
     "say": "This is not an official domain for Movie Web",
     "categories": ["all", "media"]
-  },
-  {
-    "name": "GBA Games",
-    "link": "https://gba.js.org/",
-    "image": "/icons/gba.png",
-    "categories": ["all", "emu"]
   },
   {
     "name": "Brave",
@@ -480,75 +456,21 @@
       "say": "You must have a ChatGPT account to use the site, also the site may have some issues if you don't minimize tabs while using it."
     },
     {
-      "name": "CopyLeaks.com",
-      "link": "https://copyleaks.com/ai-content-detector",
-      "image": "/icons/cl.jpg",
-      "categories": ["all", "ai-detector"]
-    },
-    {
-      "name": "Writer.com",
-      "link": "https://writer.com/ai-content-detector/",
-      "image": "/icons/wr.png",
-      "categories": ["all", "ai-detector"]
-    },
-    {
-      "name": "Quillbot.com AI Detector",
-      "link": "https://quillbot.com/ai-content-detector",
-      "image": "/icons/qb.jpg",
-      "categories": ["all", "ai-detector"]
-    },
-    {
-      "name": "Kome.ai YouTube Transcript",
-      "link": "https://kome.ai/tools/youtube-transcript-generator",
-      "image": "/icons/km.webp",
-      "categories": ["all", "yt-transcript"]
-    },
-    {
-      "name": "NoteGPT.io YouTube Transcript",
-      "link": "https://notegpt.io/youtube-transcript-generator",
-      "image": "/icons/ng.jpg",
-      "categories": ["all", "yt-transcript"]
-    },
-    {
-      "name": "Grammarly Plagiarism Checker",
-      "link": "https://www.grammarly.com/plagiarism-checker",
+      "name": "Grammarly",
+      "link": "https://www.grammarly.com",
       "image": "/icons/gm.png",
       "categories": ["all", "plagiarism-checker"]
     },
     {
-      "name": "Plagiarism Detector",
-      "link": "https://plagiarismdetector.net/",
-      "image": "/icons/pdn.png",
-      "categories": ["all", "plagiarism-checker"]
-    },
-    {
-      "name": "Blooket Cheat-transcript",
+      "name": "Blooket Cheats",
       "link": "https://github.com/Blooket-Council/Blooket-Cheayt-transcript",
       "image": "/icons/blooket.webp",
       "categories": ["all", "blooket", "cs"]
     },
     {
-      "name": "Edpuzzle Cheat-transcript",
+      "name": "Edpuzzle Answers",
       "link": "https://github.com/ai-detectoring2210/edpuzzle-answers",
       "image": "/icons/ep.png",
       "categories": ["all", "edpuzzle", "cs"]
-    },
-    {
-      "name": "DeepAI.org",
-      "link": "https://deepai.org/",
-      "image": "/icons/da.webp",
-      "categories": ["all", "ai"]
-    },
-    {
-      "name": "FreedomGPT",
-      "link": "https://chat.freedomgpt.com/",
-      "image": "/icons/tool.jpg",
-      "categories": ["all", "ai"]
-    },
-    {
-      "name": "TalkAI.info",
-      "link": "https://talkai.info/chat/",
-      "image": "/icons/ta.webp",
-      "categories": ["all", "ai"]
-    }  
-]
+    }
+  ]
