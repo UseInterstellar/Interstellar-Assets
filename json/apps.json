@@ -456,12 +456,6 @@
       "say": "You must have a ChatGPT account to use the site, also the site may have some issues if you don't minimize tabs while using it."
     },
     {
-      "name": "Grammarly",
-      "link": "https://www.grammarly.com",
-      "image": "/icons/gm.png",
-      "categories": ["all", "plagiarism-checker"]
-    },
-    {
       "name": "Blooket Cheats",
       "link": "https://github.com/Blooket-Council/Blooket-Cheayt-transcript",
       "image": "/icons/blooket.webp",
