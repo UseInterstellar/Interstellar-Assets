@@ -885,7 +885,7 @@
   {
     "name": "Itch.io",
     "link": "https://itch.io",
-    "image": "/icons/itch.webp",
+    "image": "/icons/4YiOPM4W5IQ4bOI.webp",
     "categories": [
       "all,",
       "emu,",
@@ -1260,15 +1260,15 @@
     ]
   },
   {
-    "name": "Doom 1",
+    "name": "DOOM 1",
     "link": "https://browncha023.github.io/GBA/launcher.html#dm",
-    "image": "/icons/DOOM.webp",
+    "image": "/icons/pUlj0ApWmhdnyz6wZF.webp",
     "categories": [
       "all"
     ]
   },
   {
-    "name": "Doom 2",
+    "name": "DOOM 2",
     "link": "https://browncha023.github.io/GBA/launcher.html#dm2",
     "image": "/icons/Ov6yPqICqztlUjGk9ouNp3fCQtk1iMWlS.webp",
     "categories": [
@@ -1318,7 +1318,7 @@
   {
     "name": "FNAF 2 (Scratch)",
     "link": "https://scratch.mit.edu/projects/469219637/embed/",
-    "image": "/icons/FNAF2.webp",
+    "image": "/icons/7AojJLDNZM93I0ka2b3VQqVQWSpVrdyiV.webp",
     "categories": [
       "all"
     ]
@@ -1406,7 +1406,7 @@
   {
     "name": "GBA Games 2",
     "link": "https://cattn.github.io/gba/",
-    "image": "/icons/gba.webp",
+    "image": "/icons/WpJwtcnlxkuech0c2wnJJfsgEmkuZixMins7izoJ.webp",
     "categories": [
       "all"
     ]
@@ -1414,7 +1414,7 @@
   {
     "name": "Geforce NOW",
     "link": "https://play.geforcenow.com",
-    "image": "/icons/geforce-now.webp",
+    "image": "/icons/6BAai4v3PBl1St.webp",
     "categories": [
       "all"
     ]
@@ -2107,7 +2107,7 @@
   {
     "name": "GBA Games",
     "link": "https://real-sgs.vercel.app/Tools/GBA-Emulator",
-    "image": "/icons/gba.webp",
+    "image": "/icons/WpJwtcnlxkuech0c2wnJJfsgEmkuZixMins7izoJ.webp",
     "categories": [
       "all"
     ]
@@ -2174,7 +2174,7 @@
   {
     "name": "Fortnite (Now.GG)",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.epicgames.fortnite&partner=interstellar",
-    "image": "/icons/fortnite.webp",
+    "image": "/icons/fRY5TRGMYKsR.webp",
     "categories": [
       "all",
       "emu",
@@ -2455,7 +2455,7 @@
   {
     "name": "Minecraft 1.5.2 (Eaglercraft)",
     "link": "/e/1/ec-15/index.html",
-    "image": "/icons/mc.webp",
+    "image": "/icons/NakJMxrJKml4.webp",
     "categories": [
       "all",
       "2P",
@@ -2466,7 +2466,7 @@
   {
     "name": "Minecraft 1.8 (Eaglercraft)",
     "link": "/e/1/ec-18/index.html",
-    "image": "/icons/mc.webp",
+    "image": "/icons/NakJMxrJKml4.webp",
     "categories": [
       "all",
       "2P",
@@ -2486,7 +2486,7 @@
   {
     "name": "Eaglercraft 1.5.2 [Singleplayer]",
     "link": "https://interstellar-assets.pages.dev/minecraft-15/",
-    "image": "/icons/mc.webp",
+    "image": "/icons/NakJMxrJKml4.webp",
     "categories": [
       "all",
       "2P",
