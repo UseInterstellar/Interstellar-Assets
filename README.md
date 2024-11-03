@@ -25,7 +25,7 @@ export type Asset = {
   link: string;          // (Required) The URL link to the website
 
   // Optional fields
-  say?: string;         // (Optional) Additional information or notes
+  say?: string;             // (Optional) Additional information or notes
   error?: boolean | string; // (Optional) Indicator for errors
   blank?: boolean | string; // (Optional) Indicates if a game only works outside of an iframe
 };
