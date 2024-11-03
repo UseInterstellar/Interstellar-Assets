@@ -3,8 +3,9 @@ import json
 import random
 import string
 
-def generate_random_filename(extension):
-    random_name = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
+def generate_random_filename(extension, length=10):
+    length = max(10, min(length, 40)) 
+    random_name = ''.join(random.choices(string.ascii_letters + string.digits, k=length))
     return f"{random_name}.{extension}"
 
 def rename_icons_and_update_json(json_file_path):
@@ -17,14 +18,14 @@ def rename_icons_and_update_json(json_file_path):
         if 'image' in entry:
             old_image_path = entry['image']
             old_image_name = os.path.basename(old_image_path)
-            
+
             extension = old_image_name.split('.')[-1]
-            
-            new_image_name = generate_random_filename(extension)
-            
+
+            new_image_name = generate_random_filename(extension, random.randint(10, 40))
+
             old_image_full_path = os.path.join(icon_directory, old_image_name)
             new_image_full_path = os.path.join(icon_directory, new_image_name)
-            
+
             if os.path.exists(old_image_full_path):
                 os.rename(old_image_full_path, new_image_full_path)
                 entry['image'] = f"/icons/{new_image_name}"
