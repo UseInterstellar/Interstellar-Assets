@@ -7,12 +7,11 @@ https://github.com/UseInterstellar/Interstellar-Astro
 Make sure to conform to this typescript type below:
 ```ts
 export type Asset = {
+  // Required
   name: string;
   image: string;
   link?: string;
-  // or
-  links?: { name: string; url: string }[];
-  // these fields are optional
+  // Optional
   say?: string;
   custom?: boolean;
   partial?: boolean | string;
