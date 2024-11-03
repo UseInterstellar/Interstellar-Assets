@@ -2,477 +2,704 @@
   {
     "name": "! App Request",
     "link": "https://forms.gle/vwdHN3iPz5cLaHaMA",
-    "image": "/icons/request.webp",
-    "categories": ["all"]
+    "image": "/icons/lrAjTd6pqH.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Amazon",
     "link": "https://amazon.com/",
-    "image": "/icons/amazon.webp",
-    "categories": ["all"]
+    "image": "/icons/uqAno7Rfkj.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Steam Store",
     "link": "https://store.steampowered.com/",
-    "image": "/icons/stm.webp",
-    "categories": ["all"],
+    "image": "/icons/S67d7FlJJu.webp",
+    "categories": [
+      "all"
+    ],
     "say": "Steam can't actually be added because it's an app, not a website. This only lets you browse the Steam store, you can't actually play any games unless you use Geforce Now.",
     "partial": true
   },
   {
     "name": "BuzzFeed Quizzes",
     "link": "https://www.buzzfeed.com/quizzes",
-    "image": "/icons/buzzfeed.webp",
-    "categories": ["all"]
+    "image": "/icons/GMJS7u5a1p.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Guilded",
     "link": "https://www.guilded.gg/",
-    "image": "/icons/guilded.webp",
-    "categories": ["all", "social"]
+    "image": "/icons/1QHvp6nrNF.webp",
+    "categories": [
+      "all",
+      "social"
+    ]
   },
   {
     "name": "Android",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar",
-    "image": "/icons/android.webp",
-    "categories": ["all", "emu", "android"]
+    "image": "/icons/nrEs6aKC6j.webp",
+    "categories": [
+      "all",
+      "emu",
+      "android"
+    ]
   },
   {
     "name": "Temu",
     "link": "https://www.temu.com/",
-    "image": "/icons/temu-v2.png",
-    "categories": ["all"]
+    "image": "/icons/mbsARYMVJR.png",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Character AI",
     "link": "https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar",
-    "image": "/icons/characterai.webp",
-    "categories": ["all", "emu", "android"]
+    "image": "/icons/IKv9oMQyCu.webp",
+    "categories": [
+      "all",
+      "emu",
+      "android"
+    ]
   },
   {
     "name": "Aptoide",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar",
-    "image": "/icons/aptoide.webp",
-    "categories": ["all", "emu", "android"]
+    "image": "/icons/8asg8Wz1kX.webp",
+    "categories": [
+      "all",
+      "emu",
+      "android"
+    ]
   },
   {
     "name": "Scratch",
     "link": "https://scratch.mit.edu",
-    "image": "/icons/scratch.webp",
-    "categories": ["all", "social", "game"]
+    "image": "/icons/piILW7W9zw.webp",
+    "categories": [
+      "all",
+      "social",
+      "game"
+    ]
   },
   {
     "name": "Chess.com",
     "link": "https://www.chess.com/",
-    "image": "/icons/chess.webp",
-    "categories": ["all", "game"]
+    "image": "/icons/ZapoTi25Nu.webp",
+    "categories": [
+      "all",
+      "game"
+    ]
   },
   {
     "name": "Cool Math Games",
     "link": "https://www.coolmathgames.com/",
-    "image": "/icons/coolmath.webp",
-    "categories": ["all", "game"]
+    "image": "/icons/zvzaixNzBt.webp",
+    "categories": [
+      "all",
+      "game"
+    ]
   },
   {
     "name": "Discord",
     "link": "https://discord.com",
+    "image": "/icons/Ju3F8SUDe3.jpg",
+    "categories": [
+      "all",
+      "social"
+    ]
+  },
+  {
+    "name": "Discord Canary",
+    "link": "https://canary.discord.com/login",
     "image": "/icons/discord.jpg",
-    "categories": ["all", "social"]
+    "categories": [
+      "all",
+      "social"
+    ]
   },
   {
-  "name": "Discord Canary",
-  "link": "https://canary.discord.com/login",
-  "image": "/icons/discord.jpg",
-  "categories": ["all", "social"]
-  },
-  {
-  "name": "Discord PTB (Public Test Build)",
-  "link": "https://ptb.discord.com/login",
-  "image": "/icons/discord.jpg",
-  "categories": ["all", "social"]
+    "name": "Discord PTB (Public Test Build)",
+    "link": "https://ptb.discord.com/login",
+    "image": "/icons/discord.jpg",
+    "categories": [
+      "all",
+      "social"
+    ]
   },
   {
     "name": "DuckDuckGo",
     "link": "https://start.duckduckgo.com/",
-    "image": "/icons/duckduckgo.webp",
-    "categories": ["all"]
+    "image": "/icons/RHeRfZ6q9F.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "ESPN",
     "link": "https://www.espn.com/watch/",
-    "image": "/icons/espn.webp",
-    "categories": ["all"]
+    "image": "/icons/4UtxGgNhZ1.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Fifa Rosters",
     "link": "https://fifarosters.com/",
-    "image": "/icons/fifa.webp",
-    "categories": ["all"]
+    "image": "/icons/waBrUBgbLu.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Firefox Web Browser",
     "link": "https://replit.com/@cooleddie001/Firefox-Legacy?v=1",
-    "image": "/icons/firefox.webp",
-    "categories": ["all"]
+    "image": "/icons/8HxfqgQXVK.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Flix HQ",
     "link": "https://flixhq.to",
-    "image": "/icons/flixhq.webp",
-    "categories": ["all", "media"]
+    "image": "/icons/xZXx0EsqSR.webp",
+    "categories": [
+      "all",
+      "media"
+    ]
   },
   {
     "name": "GeForce NOW",
     "link": "https://play.geforcenow.com",
-    "image": "/icons/geforce-now.webp",
-    "categories": ["all", "stream", "cloud"]
+    "image": "/icons/uh8m96YZhz.webp",
+    "categories": [
+      "all",
+      "stream",
+      "cloud"
+    ]
   },
   {
     "name": "GitHub",
     "link": "https://github.com",
-    "image": "/icons/github.webp",
-    "categories": ["all"]
+    "image": "/icons/Rz5SLdpKQ4.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Google",
     "link": "https://google.com",
-    "image": "/icons/google.webp",
-    "categories": ["all"]
+    "image": "/icons/PFBrJvrO1g.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "HBO MAX",
     "link": "https://www.hbomax.com/",
-    "image": "/icons/hbo.webp",
-    "categories": ["all", "stream"]
+    "image": "/icons/47YGw0dP2q.webp",
+    "categories": [
+      "all",
+      "stream"
+    ]
   },
   {
     "name": "Messenger",
     "link": "https://messenger.com/",
-    "image": "/icons/messenger.webp",
-    "categories": ["all", "social", "message"]
+    "image": "/icons/nf2BS1cIqT.webp",
+    "categories": [
+      "all",
+      "social",
+      "message"
+    ]
   },
   {
     "name": "MLB",
     "link": "https://mlb.com",
-    "image": "/icons/mlb.webp",
-    "categories": ["all"]
+    "image": "/icons/rPtOxECBke.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "NFL",
     "link": "https://nfl.com",
-    "image": "/icons/nfl.webp",
-    "categories": ["all"]
+    "image": "/icons/mnT1Sji5We.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "NBA",
     "link": "https://nba.com",
-    "image": "/icons/nba-v2.webp",
-    "categories": ["all"]
+    "image": "/icons/hRPjbhdFvQ.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Paramount Plus",
     "link": "https://paramountplus.com",
-    "image": "/icons/paramount.webp",
-    "categories": ["all", "stream"]
+    "image": "/icons/rPQvwIjMTl.webp",
+    "categories": [
+      "all",
+      "stream"
+    ]
   },
   {
     "name": "Pinterest",
     "link": "https://pinterest.com",
-    "image": "/icons/pinterest.webp",
-    "categories": ["all"]
+    "image": "/icons/vAqqnk83LU.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Pixlr",
     "link": "https://pixlr.com/",
-    "image": "/icons/pix.webp",
-    "categories": ["all"]
+    "image": "/icons/mflIlvDKlM.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Poki",
     "link": "https://poki.com",
-    "image": "/icons/poki.webp",
-    "categories": ["all", "game"]
+    "image": "/icons/nSze30c47w.webp",
+    "categories": [
+      "all",
+      "game"
+    ]
   },
   {
     "name": "Premier League",
     "link": "https://premierleague.com",
-    "image": "/icons/pl.webp",
-    "categories": ["all"]
+    "image": "/icons/XeiBcew90d.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "SoundCloud",
     "link": "https://soundcloud.com",
-    "image": "/icons/soundcloud.webp",
-    "categories": ["all"]
+    "image": "/icons/usobKBsemg.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Spotify",
     "link": "https://open.spotify.com",
-    "image": "/icons/spotify.webp",
-    "categories": ["all"]
+    "image": "/icons/IVSSPuWWgI.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Telegram",
     "link": "https://web.telegram.org/",
-    "image": "/icons/telegram.webp",
-    "categories": ["all", "social"]
+    "image": "/icons/VVyDd7nWIC.webp",
+    "categories": [
+      "all",
+      "social"
+    ]
   },
   {
     "name": "TikTok",
     "link": "https://tiktok.com",
-    "image": "/icons/tiktok.webp",
-    "categories": ["all", "social"]
+    "image": "/icons/jb2XvCiZxG.webp",
+    "categories": [
+      "all",
+      "social"
+    ]
   },
   {
     "name": "FreeMediaHeckYeah",
     "link": "https://fmhy.pages.dev",
-    "image": "/icons/app.jpg",
-    "categories": ["all", "media"]
+    "image": "/icons/EzrTrTUgQt.jpg",
+    "categories": [
+      "all",
+      "media"
+    ]
   },
   {
     "name": "Canva",
     "link": "https://canva.com",
-    "image": "/icons/canva.webp",
-    "categories": ["all"]
+    "image": "/icons/dHIuEKZK4T.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Wikipedia",
     "link": "https://en.wikipedia.org",
-    "image": "/icons/wiki.webp",
-    "categories": ["all"]
+    "image": "/icons/SVS8YyuFJl.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "GOAL",
     "link": "https://goal.com",
-    "image": "/icons/goal.webp",
-    "categories": ["all"]
+    "image": "/icons/aKh8bU9yFG.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Trello",
     "link": "https://trello.com",
-    "image": "/icons/trello.webp",
-    "categories": ["all"]
+    "image": "/icons/bIqEDNBELW.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Tumblr",
     "link": "https://tumblr.com/",
-    "image": "/icons/tumblr.webp",
-    "categories": ["all", "social"]
+    "image": "/icons/C1FP04zhSE.webp",
+    "categories": [
+      "all",
+      "social"
+    ]
   },
   {
     "name": "Twitch",
     "link": "https://twitch.tv",
-    "image": "/icons/twitch.webp",
-    "categories": ["all", "stream"]
+    "image": "/icons/wHZFvVRRQt.webp",
+    "categories": [
+      "all",
+      "stream"
+    ]
   },
   {
     "name": "Twitter",
     "link": "https://twitter.com",
-    "image": "/icons/twitter.webp",
-    "categories": ["all", "social"]
+    "image": "/icons/K3zlrH3VkA.webp",
+    "categories": [
+      "all",
+      "social"
+    ]
   },
   {
     "name": "VS Code",
     "link": "https://vscode.dev",
-    "image": "/icons/vscode.webp",
-    "categories": ["all", "tool"]
+    "image": "/icons/8xeiyRbQG9.webp",
+    "categories": [
+      "all",
+      "tool"
+    ]
   },
   {
     "name": "YouTube",
     "link": "https://youtube.com",
-    "image": "/icons/youtube.webp",
-    "categories": ["all", "social", "stream"]
+    "image": "/icons/BuDGzUNcts.webp",
+    "categories": [
+      "all",
+      "social",
+      "stream"
+    ]
   },
   {
     "name": "YouTube (Invidious)",
     "link": "https://vid.puffyan.us/",
     "image": "/icons/youtube.webp",
-    "categories": ["all", "social", "stream"]
+    "categories": [
+      "all",
+      "social",
+      "stream"
+    ]
   },
   {
     "name": "Whatsapp",
-    "image": "/icons/whatsapp.webp",
-    "categories": ["all", "message", "social"],
+    "image": "/icons/ah55lrpSRH.webp",
+    "categories": [
+      "all",
+      "message",
+      "social"
+    ],
     "error": true
   },
   {
     "name": "Wattpad",
     "link": "https://www.wattpad.com/",
-    "image": "/icons/wattpad.webp",
-    "categories": ["all", "social"]
+    "image": "/icons/A8FXoEEVfF.webp",
+    "categories": [
+      "all",
+      "social"
+    ]
   },
   {
     "name": "Discord - Login",
     "links": [
-      { "name": "Discord", "url": "https://discord.com/login" },
-      { "name": "Discord Canary", "url": "https://canary.discord.com/login" },
-      { "name": "Discord PTB", "url": "https://ptb.discord.com/login" }
+      {
+        "name": "Discord",
+        "url": "https://discord.com/login"
+      },
+      {
+        "name": "Discord Canary",
+        "url": "https://canary.discord.com/login"
+      },
+      {
+        "name": "Discord PTB",
+        "url": "https://ptb.discord.com/login"
+      }
     ],
     "image": "/icons/discord.jpg",
-    "categories": ["all", "social"],
+    "categories": [
+      "all",
+      "social"
+    ],
     "blank": "true"
   },
   {
     "name": "HD Today",
     "link": "https://hdtoday.tv",
-    "image": "/icons/hd.webp",
-    "categories": ["all", "stream", "media"]
+    "image": "/icons/IrjORrH32S.webp",
+    "categories": [
+      "all",
+      "stream",
+      "media"
+    ]
   },
   {
     "name": "Now.GG",
     "link": "https://now.gg",
-    "image": "/icons/now-gg.webp",
-    "categories": ["all", "emu", "android"]
+    "image": "/icons/SJDcSEZ6Vo.webp",
+    "categories": [
+      "all",
+      "emu",
+      "android"
+    ]
   },
   {
     "name": "NowGG.Me",
     "link": "https://nowgg.me",
-    "image": "/icons/shuttle.webp",
-    "categories": ["all", "emu", "android"]
+    "image": "/icons/oSOfgWUl1N.webp",
+    "categories": [
+      "all",
+      "emu",
+      "android"
+    ]
   },
   {
     "name": "Vercel",
     "link": "https://vercel.com",
-    "image": "/icons/vercel.webp",
-    "categories": ["all", "tool"]
+    "image": "/icons/OdzXd0KlOZ.webp",
+    "categories": [
+      "all",
+      "tool"
+    ]
   },
   {
     "name": "Amazon Luna",
     "link": "https://luna.amazon.com/",
-    "image": "/icons/amazon-luna.webp",
-    "categories": ["all", "game", "cloud"],
+    "image": "/icons/kdeBbEKb3c.webp",
+    "categories": [
+      "all",
+      "game",
+      "cloud"
+    ],
     "blank": "true"
   },
   {
     "name": "Google Gemini",
     "link": "https://gemini.google.com",
-    "image": "/icons/gemini.webp",
-    "categories": ["all", "ai"]
+    "image": "/icons/59gASkT82B.webp",
+    "categories": [
+      "all",
+      "ai"
+    ]
   },
   {
     "name": "Google Mail",
     "link": "https://mail.google.com/",
-    "image": "/icons/gmail.webp",
-    "categories": ["all", "mail"],
+    "image": "/icons/Jc1vp8BESY.webp",
+    "categories": [
+      "all",
+      "mail"
+    ],
     "blank": "true",
     "partial": "true"
   },
   {
     "name": "Outlook",
     "link": "https://outlook.live.com/",
-    "image": "/icons/outlook.webp",
-    "categories": ["all", "mail"],
+    "image": "/icons/2kLnBskIG6.webp",
+    "categories": [
+      "all",
+      "mail"
+    ],
     "partial": "true"
   },
   {
     "name": "Snapchat",
-    "image": "/icons/snap.webp",
-    "categories": ["all", "social", "message"],
+    "image": "/icons/QgGeDGqeSH.webp",
+    "categories": [
+      "all",
+      "social",
+      "message"
+    ],
     "error": "true"
   },
   {
     "name": "W3Schools",
     "link": "https://www.w3schools.com",
-    "image": "/icons/W3Schools.webp",
-    "categories": ["all"]
+    "image": "/icons/Z8Rb8etU63.webp",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Instagram",
-    "image": "/icons/insta.webp",
-    "categories": ["all", "social", "message"],
+    "image": "/icons/mQVQDxJAC2.webp",
+    "categories": [
+      "all",
+      "social",
+      "message"
+    ],
     "error": "true"
   },
   {
     "name": "Proton Mail",
-    "image": "/icons/proton.webp",
-    "categories": ["all"],
+    "image": "/icons/v8NvW2XVmo.webp",
+    "categories": [
+      "all"
+    ],
     "error": "true"
   },
   {
     "name": "SpaceHey",
     "link": "https://www.spacehey.com",
-    "image": "/icons/spacehey.png",
-    "categories": ["all", "social"]
+    "image": "/icons/YLRq3Sjx8v.png",
+    "categories": [
+      "all",
+      "social"
+    ]
   },
   {
     "name": "FMovies.to",
     "link": "https://fmovies24.to/",
-    "image": "/icons/FM.png",
-    "categories": ["all", "media"]
+    "image": "/icons/fhi7LpPr1y.png",
+    "categories": [
+      "all",
+      "media"
+    ]
   },
   {
     "name": "EMovies.si",
     "link": "https://emovies.si",
     "image": "/icons/app.jpg",
-    "categories": ["all", "media"]
+    "categories": [
+      "all",
+      "media"
+    ]
   },
   {
     "name": "Movie Web",
     "link": "https://movie-web-me.vercel.app/",
-    "image": "/icons/MW.png",
+    "image": "/icons/A8Fe0KJUYW.png",
     "say": "This is not an official domain for Movie Web",
-    "categories": ["all", "media"]
+    "categories": [
+      "all",
+      "media"
+    ]
   },
   {
     "name": "Brave",
     "link": "https://search.brave.com",
-    "image": "/icons/brave.png",
-    "categories": ["all"]
+    "image": "/icons/eyeljSApPP.png",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Replit",
     "link": "https://replit.com",
-    "image": "/icons/replit.svg.png",
-    "categories": ["all"]
+    "image": "/icons/BOz1FoYim2.png",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "CodeSandbox",
     "link": "https://codesandbox.io/",
-    "image": "/icons/csb.png",
-    "categories": ["all"]
+    "image": "/icons/WqqVprPL1b.png",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Aniwatch",
     "link": "https://aniwatchtv.to/",
-    "image": "/icons/aniwatch.jpg",
-    "categories": ["all"]
+    "image": "/icons/JhGkGJE4He.jpg",
+    "categories": [
+      "all"
+    ]
   },
   {
     "name": "Youtube Music",
     "link": "https://music.youtube.com/",
-    "image": "/icons/youtubemusic.jpg",
-    "categories": ["all"]
-  }, 
+    "image": "/icons/NKMEavzwOo.jpg",
+    "categories": [
+      "all"
+    ]
+  },
   {
-      "name": "GPTZero.me",
-      "link": "https://gptzero.me/",
-      "image": "/icons/gz.webp",
-      "categories": ["all", "ai-detector"]
-    },
-    {
-      "name": "ZeroGPT.com",
-      "link": "https://www.zerogpt.com/",
-      "image": "/icons/zg.webp",
-      "categories": ["all", "ai-detector"]
-    },
-    {
-      "name": "ChatGPT",
-      "link": "https://chat.openai.com",
-      "image": "/icons/gpt.jpg",
-      "categories": ["all", "ai"],
-      "error": "true",
-      "say": "You must have a ChatGPT account to use the site, also the site may have some issues if you don't minimize tabs while using it."
-    },
-    {
-      "name": "Blooket Cheats",
-      "link": "https://github.com/Blooket-Council/Blooket-Cheayt-transcript",
-      "image": "/icons/blooket.webp",
-      "categories": ["all", "blooket", "cs"]
-    },
-    {
-      "name": "Edpuzzle Answers",
-      "link": "https://github.com/ai-detectoring2210/edpuzzle-answers",
-      "image": "/icons/ep.png",
-      "categories": ["all", "edpuzzle", "cs"]
-    }
-  ]
+    "name": "GPTZero.me",
+    "link": "https://gptzero.me/",
+    "image": "/icons/H4MVCVZ0oQ.webp",
+    "categories": [
+      "all",
+      "ai-detector"
+    ]
+  },
+  {
+    "name": "ZeroGPT.com",
+    "link": "https://www.zerogpt.com/",
+    "image": "/icons/aBdbkhDzgj.webp",
+    "categories": [
+      "all",
+      "ai-detector"
+    ]
+  },
+  {
+    "name": "ChatGPT",
+    "link": "https://chat.openai.com",
+    "image": "/icons/AO0H3WNVLQ.jpg",
+    "categories": [
+      "all",
+      "ai"
+    ],
+    "error": "true",
+    "say": "You must have a ChatGPT account to use the site, also the site may have some issues if you don't minimize tabs while using it."
+  },
+  {
+    "name": "Blooket Cheats",
+    "link": "https://github.com/Blooket-Council/Blooket-Cheayt-transcript",
+    "image": "/icons/H3vlGDZAlq.webp",
+    "categories": [
+      "all",
+      "blooket",
+      "cs"
+    ]
+  },
+  {
+    "name": "Edpuzzle Answers",
+    "link": "https://github.com/ai-detectoring2210/edpuzzle-answers",
+    "image": "/icons/flgIZ3pnAz.png",
+    "categories": [
+      "all",
+      "edpuzzle",
+      "cs"
+    ]
+  }
+]
