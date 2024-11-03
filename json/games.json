@@ -49,9 +49,9 @@
     ]
   },
   {
-    "name": "Steam",
-    "link": "https://steampowered.com/",
-    "image": "/icons/stm.webp",
+    "name": "Steam Store",
+    "link": "https://store.steampowered.com/",
+    "image": "/icons/kDdjiWsXFhdfjAk5NZop3KaO6qUXWOk.webp",
     "categories": [
       "all"
     ],
@@ -1985,7 +1985,7 @@
   {
     "name": "Stumble Guys Clone",
     "link": "https://stumble-guys.io/stumble-guys.embed",
-    "image": "/icons/stumble-guys.webp",
+    "image": "/icons/uS3KIp52f2hOzWK98l9v1MsQoKehZT9gUE.webp",
     "categories": [
       "all"
     ]
@@ -2334,7 +2334,7 @@
   {
     "name": "Stumble Guys (Android)",
     "link": "https://now.gg/iframe/snippet?app_pkg=com.kitkagames.fallbuddies&partner=interstellar",
-    "image": "/icons/stumble-guys.webp",
+    "image": "/icons/uS3KIp52f2hOzWK98l9v1MsQoKehZT9gUE.webp",
     "categories": [
       "all",
       "emu",
@@ -2669,7 +2669,7 @@
   {
     "name": "Wordle Unlimited",
     "link": "https://wordleunlimited.org/",
-    "image": "/icons/w.webp",
+    "image": "/icons/slnxV29OKUPNHt.webp",
     "categories": [
       "all"
     ]
@@ -2677,7 +2677,7 @@
   {
     "name": "Wordly",
     "link": "https://wordly.org/",
-    "image": "/icons/w.webp",
+    "image": "/icons/slnxV29OKUPNHt.webp",
     "categories": [
       "all"
     ]
