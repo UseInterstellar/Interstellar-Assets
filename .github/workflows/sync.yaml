@@ -5,8 +5,8 @@ on:
     branches:
       - main
     paths:
-      - 'icons/**'  
-      - 'json/**'    
+      - 'icons/**'
+      - 'json/**'
   workflow_dispatch:  
 
 jobs:
@@ -49,6 +49,7 @@ jobs:
   clean_and_move_json:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.modified, 'json') }}  
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
@@ -70,12 +71,21 @@ jobs:
         mv json/* .
         rmdir json
 
+    - name: Update all JSON files to change image paths
+      run: |
+        # Loop through the JSON files and replace the paths
+        for file in *.json; do
+          echo "Processing $file"
+          # Replace "/icons/" with "/assets/media/icons/"
+          sed -i 's|"/icons/|"/assets/media/icons/|g' "$file"
+        done
+
     - name: Commit changes to JSON branch
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add .
-        git commit -m "Moved json to root and cleaned JSON branch" || echo "No changes to commit"
+        git commit -m "Updated image paths to /assets/media/icons/" || echo "No changes to commit"
 
     - name: Push changes to JSON branch
       run: |
