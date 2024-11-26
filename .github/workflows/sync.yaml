@@ -76,8 +76,8 @@ jobs:
         # Loop through the JSON files and replace the paths
         for file in *.json; do
           echo "Processing $file"
-          # Replace "/icons/" with "/assets/media/icons/"
-          sed -i 's|"/icons/|"/assets/media/icons/|g' "$file"
+          # Replace "/icons/" with "/media/icons/"
+          sed -i 's|"/icons/|"/media/icons/|g' "$file"
         done
 
     - name: Commit changes to JSON branch
@@ -85,7 +85,7 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add .
-        git commit -m "Updated image paths to /assets/media/icons/" || echo "No changes to commit"
+        git commit -m "Updated image paths || echo "No changes to commit"
 
     - name: Push changes to JSON branch
       run: |
