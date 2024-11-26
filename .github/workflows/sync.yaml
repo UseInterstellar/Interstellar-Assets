@@ -8,22 +8,23 @@ on:
       - 'icons/**'  
       - 'json/**'    
   workflow_dispatch:  
+
 jobs:
   clean_and_move_images:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.modified, 'icons') }}  
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
         fetch-depth: 0 
 
-    - name: Switch to "Images" branch
+    - name: Switch to "Images" branch and hard reset to main
       run: |
         git fetch origin Images
         git checkout Images
-        git reset --hard origin/main  # Hard reset to main
-        git pull origin Images  # Pull the latest changes from the Images branch
+        git reset --hard origin/main  
 
     - name: Delete everything except /icons/
       run: |
@@ -43,24 +44,22 @@ jobs:
 
     - name: Push changes to Images branch
       run: |
-        git push origin Images
+        git push origin Images --force
 
   clean_and_move_json:
     runs-on: ubuntu-latest
     if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.modified, 'json') }}  
-
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
       with:
         fetch-depth: 0 
 
-    - name: Switch to "JSON" branch
+    - name: Switch to "JSON" branch and hard reset to main
       run: |
         git fetch origin JSON
         git checkout JSON
-        git reset --hard origin/main  # Hard reset to main
-        git pull origin JSON  # Pull the latest changes from the JSON branch
+        git reset --hard origin/main  
 
     - name: Delete everything except /json/
       run: |
@@ -80,4 +79,4 @@ jobs:
 
     - name: Push changes to JSON branch
       run: |
-        git push origin JSON
+        git push origin JSON --force
