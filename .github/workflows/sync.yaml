@@ -1,4 +1,4 @@
-name: Cleanup and Push Icons to Root
+name: Cleanup and Push Icons & JSON to Root
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  clean_and_move:
+  clean_and_move_images:
     runs-on: ubuntu-latest
 
     steps:
@@ -30,13 +30,48 @@ jobs:
         mv icons/* .
         rmdir icons
 
-    - name: Commit changes
+    - name: Commit changes to Images branch
       run: |
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add .
-        git commit -m "Moved icons to root and cleaned branch" || echo "No changes to commit"
+        git commit -m "Moved icons to root and cleaned Images branch" || echo "No changes to commit"
 
-    - name: Push to Images branch
+    - name: Push changes to Images branch
       run: |
         git push origin Images
+
+  clean_and_move_json:
+    runs-on: ubuntu-latest
+    needs: clean_and_move_images 
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0 
+
+    - name: Switch to "JSON" branch
+      run: |
+        git fetch origin JSON
+        git checkout JSON
+
+    - name: Delete everything except /json/
+      run: |
+        find . -mindepth 1 -maxdepth 1 ! -name "json" ! -name ".git" -exec rm -rf {} +
+
+    - name: Move json to root
+      run: |
+        mv json/* .
+        rmdir json
+
+    - name: Commit changes to JSON branch
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Moved json to root and cleaned JSON branch" || echo "No changes to commit"
+
+    - name: Push changes to JSON branch
+      run: |
+        git push origin JSON
