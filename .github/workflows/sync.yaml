@@ -4,10 +4,14 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'icons/**'  
+      - 'json/**'   
   workflow_dispatch:
 
 jobs:
   clean_and_move_images:
+    if: ${{ github.event.head_commit.modified && contains(github.event.head_commit.modified, 'icons') }}
     runs-on: ubuntu-latest
 
     steps:
@@ -20,6 +24,7 @@ jobs:
       run: |
         git fetch origin Images
         git checkout Images
+        git reset --hard origin/main  # Hard reset to main
 
     - name: Delete everything except /icons/
       run: |
@@ -42,8 +47,8 @@ jobs:
         git push origin Images
 
   clean_and_move_json:
+    if: ${{ github.event.head_commit.modified && contains(github.event.head_commit.modified, 'json') }}  
     runs-on: ubuntu-latest
-    needs: clean_and_move_images 
 
     steps:
     - name: Checkout repository
@@ -55,6 +60,7 @@ jobs:
       run: |
         git fetch origin JSON
         git checkout JSON
+        git reset --hard origin/main  # Hard reset to main
 
     - name: Delete everything except /json/
       run: |
