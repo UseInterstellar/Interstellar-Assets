@@ -85,7 +85,7 @@ jobs:
         git config user.name "github-actions[bot]"
         git config user.email "github-actions[bot]@users.noreply.github.com"
         git add .
-        git commit -m "Updated image paths || echo "No changes to commit"
+        git commit -m "Updated image paths" || echo "No changes to commit"
 
     - name: Push changes to JSON branch
       run: |
