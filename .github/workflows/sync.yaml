@@ -1,0 +1,42 @@
+name: Cleanup and Push Icons to Root
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  clean_and_move:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0 
+
+    - name: Switch to "Images" branch
+      run: |
+        git fetch origin Images
+        git checkout Images
+
+    - name: Delete everything except /icons/
+      run: |
+        find . -mindepth 1 -maxdepth 1 ! -name "icons" ! -name ".git" -exec rm -rf {} +
+
+    - name: Move icons to root
+      run: |
+        mv icons/* .
+        rmdir icons
+
+    - name: Commit changes
+      run: |
+        git config user.name "github-actions[bot]"
+        git config user.email "github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Moved icons to root and cleaned branch" || echo "No changes to commit"
+
+    - name: Push to Images branch
+      run: |
+        git push origin Images
