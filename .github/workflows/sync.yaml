@@ -6,13 +6,13 @@ on:
       - main
     paths:
       - 'icons/**'  
-      - 'json/**'   
-  workflow_dispatch:
+      - 'json/**'  
+  workflow_dispatch: 
 
 jobs:
   clean_and_move_images:
-    if: ${{ github.event.head_commit.modified && contains(github.event.head_commit.modified, 'icons') }}
     runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.modified, 'icons') }} 
 
     steps:
     - name: Checkout repository
@@ -47,9 +47,8 @@ jobs:
         git push origin Images
 
   clean_and_move_json:
-    if: ${{ github.event.head_commit.modified && contains(github.event.head_commit.modified, 'json') }}  
     runs-on: ubuntu-latest
-
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.modified, 'json') }}  
     steps:
     - name: Checkout repository
       uses: actions/checkout@v3
